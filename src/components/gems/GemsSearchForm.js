@@ -20,6 +20,7 @@ const GemsForm = ({ handleChange }) => {
             <option> Landmarks </option>
             <option> Viewpoints </option>
             <option> Religious Sites </option>
+            <option> Photography </option>
             <option> Galleries </option>
             <option> Parks </option>
           </select>
