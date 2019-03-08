@@ -44,7 +44,7 @@ class UserShow extends React.Component {
               </div>
               <div className="column is-4 is-flex is-horizontial-center">
                 <figure className="image is-128x128">
-                  <img className="is-rounded" src={this.state.user.image} alt={this.state.user.name}/>
+                  <img className="is-rounded" src="http://www.epsomps.vic.edu.au/wp-content/uploads/2016/09/512x512-1-300x300.png" alt="username"/>
                 </figure>
                 <h2 className="title has-text-centered is-vcentered is-2 has-text-white"> {username} {Auth.hasFollowed(this.state.user._id, this.state.user.follows) && <i className="fas fa-check-circle"></i> }</h2>
                 {Auth.isAuthenticated() && Auth.canFollow(this.state.user._id, this.state.user.follows) && <button className="followBtn" onClick={this.handleFollow}>Follow</button>}

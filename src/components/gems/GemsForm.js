@@ -3,7 +3,7 @@ import MapboxAutocomplete from 'react-mapbox-autocomplete'
 import ReactFilestack from 'react-filestack'
 import RegMap from '../common/RegMap'
 
-const fileStack = process.env.FILESTACK_API_KEY
+// const fileStack = process.env.FILESTACK_API_KEY
 
 
 const GemsForm = ({ data, handleChange, handleSubmit, errors, suggestionSelect }) => {
@@ -29,7 +29,7 @@ const GemsForm = ({ data, handleChange, handleSubmit, errors, suggestionSelect }
             <div className="field">
               <label className="label">Image</label>
               <div className="control">
-                <ReactFilestack
+                {/*<ReactFilestack
                   apikey={`${fileStack}`}
                   mode={'pick'}
                   onSuccess={(res) => {
@@ -42,6 +42,13 @@ const GemsForm = ({ data, handleChange, handleSubmit, errors, suggestionSelect }
                   onError={(err) => console.log(err)}
                   buttonText={'Upload Image'}
                   buttonClass={'button is-dark is-rounded'}
+                />*/}
+                <input
+                  className="input"
+                  placeholder="Image"
+                  name="iamge"
+                  onChange={handleChange}
+                  value={data.image || ''}
                 />
                 {data.image &&<small> Imaged Uploaded</small>}
                 <br/>
