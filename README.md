@@ -8,7 +8,7 @@
 * HTML5
 * SCSS + CSS Animation
 * JavaScript (ES6), React, Node.js, Express
-* Mongod, Mongoose, JSON
+* MongoDB, Mongoose, JSON
 * Yarn, Babel, Webpack
 * Heroku, GitHub/Git
 
@@ -22,17 +22,14 @@
 6. Open the `index.html` in browser
 8. Deployed on Heroku
 
-## Our App - Hidden Gems
+### App overview
+The app  allows users to look for landmarks or any other places of interest, also referred as "Gems" on the website. The user can also add their own "Gems" or create "Trips" using a collection of "Gems". The concept of the app is to allow users to share unique places that they have been to and for others to find these places and experience it for themselves.
 
-![hidden gems homepage](https://user-images.githubusercontent.com/42389173/52848831-9a9ca500-3107-11e9-9557-3c1fc40cc4d9.png)
+Key features of the App are being able to follow other users. Navigation to a Gem from user's location to the gem via using google maps.
 
 You can find a hosted version here:  https://wdi-hidden-gems-project-3.herokuapp.com
 
-### App overview
- The app  allows users to look for landmarks or any other places of interest, also referred as "Gems" on the website. The user can also add their own "Gems" or create "Trips" using a collection of "Gems". The concept of the app is to allow users to share unique places that they have been to and for others to find these places and experience it for themselves.
-
- Key features of the App are being able to follow other users. Navigation to a Gem from user's location to the gem via using google maps.
-
+![hidden gems homepage](https://user-images.githubusercontent.com/42389173/52848831-9a9ca500-3107-11e9-9557-3c1fc40cc4d9.png)
 
 ### App Instructions
 1.To start the App the user needs to register first.
