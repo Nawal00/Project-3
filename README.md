@@ -44,17 +44,18 @@ You can find a hosted version at https://wdi-hidden-gems-project-3.herokuapp.com
 ### Users and sessions
 The users can register on Hidden Gems through Register Page and Sign In through Login Page. The users must be logged in to add new gems, create new trip to the database and follow other users.
 
-Signed in users can access their Profile page. From here they can see the number of gems and trips they have uploaded and users that they have followed. User profile images are uploaded using FileStack, but the FileStack API key last for 15 days therefore, I've taken it off.
+Signed in users can access their Profile page. From here they can see the number of gems and trips they have uploaded and the users they follow. User profile images are uploaded using FileStack, but the FileStack API key last for 15 days therefore, I've taken it off.
 
 <img width="1271" alt="Screenshot 2019-03-26 at 21 51 37" src="https://user-images.githubusercontent.com/42609274/55036049-62935680-5011-11e9-98ab-8eb6662d5ab6.png">
-<img width="1271" alt="Screenshot 2019-03-26 at 22 36 30" src="https://user-images.githubusercontent.com/42609274/55038084-a8ebb400-5017-11e9-978c-00543521282e.png">
+<img width="1271" alt="Screenshot 2019-03-26 at 22 38 52" src="https://user-images.githubusercontent.com/42609274/55038198-fa943e80-5017-11e9-993e-e0fd38b191ce.png">
 
 ### Gems
 You can view all Gems on the index page and search by category or city. Clicking on a Gem will take you it's show page. Gems are uploaded by a user and can also belong to several Trips.
 
 <img width="1106" alt="Screenshot 2019-03-26 at 22 12 52" src="https://user-images.githubusercontent.com/42609274/55037069-72f90080-5014-11e9-97a7-2f8daec91840.png">
 
-The show pages includes description, map, comments, name of user who uploaded the gem and list of trips in which the gems has been added to.
+
+The Gem show page includes a description, gem's location on a map, comments, name of user who uploaded the gem and list of trips in which the gems has been added to.
 
 <img width="1030" alt="Screenshot 2019-03-26 at 22 24 08" src="https://user-images.githubusercontent.com/42609274/55037499-e7806f00-5015-11e9-91fe-5eacc4566cb8.png">
 
