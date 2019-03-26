@@ -47,6 +47,7 @@ The users can register on Hidden Gems through Register Page and Sign In through 
 Signed in users can access their Profile page. From here they can see the number of gems and trips they have uploaded and users that they have followed. User profile images are uploaded using FileStack, but the FileStack API key last for 15 days therefore, I've taken it off.
 
 <img width="1271" alt="Screenshot 2019-03-26 at 21 51 37" src="https://user-images.githubusercontent.com/42609274/55036049-62935680-5011-11e9-98ab-8eb6662d5ab6.png">
+<img width="1271" alt="Screenshot 2019-03-26 at 22 33 03" src="https://user-images.githubusercontent.com/42609274/55037924-2c58d580-5017-11e9-8a99-6f6bc1622288.png">
 
 ### Gems
 You can view all Gems on the index page and search by category or city. Clicking on a Gem will take you it's show page. Gems are uploaded by a user and can also belong to several Trips.
