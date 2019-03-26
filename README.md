@@ -1,16 +1,24 @@
-# General Assembly Project 3 : A MERN Stack App - Group Project
+# GA Project 3 : A MERN Stack App - Group Project
 
 ### Timeframe
 7 days
 
 ## Technologies used
 
-* HTML5
-* SCSS + CSS Animation
 * JavaScript (ES6), React, Node.js, Express
+* HTML5, SCSS, Bulma
 * MongoDB, Mongoose, JSON
 * Yarn, Babel, Webpack
+* BCrypt, oAuth
 * Heroku, GitHub/Git
+* Chai
+
+## APIs
+* FileStack.js
+* Mapbox
+
+## Contributors
+* This was a group project with 4 members. The project was managed using Trello and daily stand-ups.
 
 ## Installation
 
@@ -22,18 +30,21 @@
 6. Open the `index.html` in browser
 8. Deployed on Heroku
 
-### App overview
-The app  allows users to look for landmarks or any other places of interest, also referred as "Gems" on the website. The user can also add their own "Gems" or create "Trips" using a collection of "Gems". The concept of the app is to allow users to share unique places that they have been to and for others to find these places and experience it for themselves.
+### App overview - 'Hidden Gems'
+
+(https://user-images.githubusercontent.com/42609274/55034981-ad5f9f00-500e-11e9-9b88-dc23fcde1ed3.png)
+The app  allows users to look for landmarks or any other places of interest, also referred as "Gems" on the website. The user can also add their own "Gems" or create "Trips" using a collection of "Gems". The concept of the app is to allow users to share unique places that they've been to and for others to find these places and experience it for themselves.
 
 Key features of the App are being able to follow other users. Navigation to a Gem from user's location to the gem via using google maps.
 
-You can find a hosted version here:  https://wdi-hidden-gems-project-3.herokuapp.com
+You can find a hosted version at https://wdi-hidden-gems-project-3.herokuapp.com
 
-![hidden gems homepage](https://user-images.githubusercontent.com/42389173/52848831-9a9ca500-3107-11e9-9557-3c1fc40cc4d9.png)
 
-### App Instructions
-1.To start the App the user needs to register first.
-![registration page](https://user-images.githubusercontent.com/42389173/52851319-b30fbe00-310d-11e9-883d-9fa2f0fd347e.png)
+### Users and sessions
+1.The users can register on Hidden Gems through Register Page and Sign In through Login Page. The users must be logged in to add new gems, create new trip to the database and follow other users.
+
+Signed in users can access their Profile page. From here they can see the number of gems and trips they have uploaded and users that they have followed. User profile images are uploaded using FileStack.
+(https://user-images.githubusercontent.com/42609274/55036049-62935680-5011-11e9-98ab-8eb6662d5ab6.png)
 
 2.The user will login in using the correct login credentials.
 ![login page](https://user-images.githubusercontent.com/42389173/52851380-e0f50280-310d-11e9-8a5f-4ef41a846ac1.png)
