@@ -44,7 +44,7 @@ You can find a hosted version at https://wdi-hidden-gems-project-3.herokuapp.com
 1.The users can register on Hidden Gems through Register Page and Sign In through Login Page. The users must be logged in to add new gems, create new trip to the database and follow other users.
 
 Signed in users can access their Profile page. From here they can see the number of gems and trips they have uploaded and users that they have followed. User profile images are uploaded using FileStack.
-(https://user-images.githubusercontent.com/42609274/55036049-62935680-5011-11e9-98ab-8eb6662d5ab6.png)
+<img width="1271" alt="Screenshot 2019-03-26 at 21 51 37" src="https://user-images.githubusercontent.com/42609274/55036049-62935680-5011-11e9-98ab-8eb6662d5ab6.png">
 
 2.The user will login in using the correct login credentials.
 ![login page](https://user-images.githubusercontent.com/42389173/52851380-e0f50280-310d-11e9-8a5f-4ef41a846ac1.png)
