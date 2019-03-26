@@ -14,7 +14,7 @@
 * Chai
 
 ## APIs
-* FileStack.js
+* FileStack
 * Mapbox
 
 ## Contributors
@@ -52,7 +52,7 @@ Signed in users can access their Profile page. From here they can see the number
 ### Gems
 You can view all Gems on the index page and search by category or city. Clicking on a Gem will take you it's show page. Gems are uploaded by a user and can also belong to several Trips.
 
-<img width="1106" alt="Screenshot 2019-03-26 at 22 12 52" src="https://user-images.githubusercontent.com/42609274/55037069-72f90080-5014-11e9-97a7-2f8daec91840.png">
+<img width="1266" alt="Screenshot 2019-03-26 at 22 44 15" src="https://user-images.githubusercontent.com/42609274/55038433-bd7c7c00-5018-11e9-81db-4d0d27bfc517.png">
 
 
 The Gem show page includes a description, gem's location on a map, comments, name of user who uploaded the gem and list of trips in which the gems has been added to.
