@@ -52,16 +52,24 @@ Signed in users can access their Profile page. From here they can see the number
 ### Gems
 You can view all Gems on the index page and search by category or city. Clicking on a Gem will take you it's show page. Gems are uploaded by a user and can also belong to several Trips.
 
-<img width="1266" alt="Screenshot 2019-03-26 at 22 44 15" src="https://user-images.githubusercontent.com/42609274/55038433-bd7c7c00-5018-11e9-81db-4d0d27bfc517.png">
+<img width="1259" alt="Screenshot 2019-03-26 at 22 44 15" src="https://user-images.githubusercontent.com/42609274/55038801-f5d08a00-5019-11e9-8776-2090608fcd71.png">
 
 
 The Gem show page includes a description, gem's location on a map, comments, name of user who uploaded the gem and list of trips in which the gems has been added to.
 
-<img width="1030" alt="Screenshot 2019-03-26 at 22 24 08" src="https://user-images.githubusercontent.com/42609274/55037499-e7806f00-5015-11e9-91fe-5eacc4566cb8.png">
+<img width="1266" alt="Screenshot 2019-03-26 at 22 50 28" src="https://user-images.githubusercontent.com/42609274/55038697-9d00f180-5019-11e9-8bb7-3c4cf968ea00.png">
+
+
+### Trips
+
+The Trips section encourages users to explore Gems and incorporate the Gems on their Trip. Signed-in users can create a Trip to complete. A Trip is comprised of a collection of gems and displayed on the map.
+
+<img width="1053" alt="Screenshot 2019-03-26 at 23 07 03" src="https://user-images.githubusercontent.com/42609274/55039399-e6524080-501b-11e9-93bb-a8c05c5e4c16.png">
 
 
 ## Process
 
+The development process started with wireframes to work out the user's journey and basic functionality of the site. We then decided the structure of the database and routes. Once our models were build we started working on setting up controllers for all routes. The api routes were then tested by making requests with Insomnia.  
 
 ### Challenges
 
