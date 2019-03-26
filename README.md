@@ -34,7 +34,7 @@
 
 <img width="301" alt="Screenshot 2019-03-26 at 21 32 01" src="https://user-images.githubusercontent.com/42609274/55036245-f06f4180-5011-11e9-80d9-cca6b5aa7215.png">
 
-The app  allows users to look for landmarks or any other places of interest, also referred as "Gems" on the website. The user can also add their own "Gems" or create "Trips" using a collection of "Gems". The concept of the app is to allow users to share unique places that they've been to and for others to find these places and experience it for themselves.
+The Hidden Gem app allows users to look for landmarks or any other places of interest, also referred as 'Gems' on the website. The user can also add their own 'Gems' or create 'Trips' using a collection of 'Gems'. The concept of the app is to allow users to share unique places that they've been to and for others to find these places and experience it for themselves.
 
 Key features of the App are being able to follow other users. Navigation to a Gem from user's location to the gem via using google maps.
 
@@ -69,7 +69,15 @@ The Trips section encourages users to explore Gems and incorporate the Gems on t
 
 ## Process
 
-The development process started with wireframes to work out the user's journey and basic functionality of the site. We then decided the structure of the database and routes. Once our models were build we started working on setting up controllers for all routes. The api routes were then tested by making requests with Insomnia.  
+The development process started with wireframes to implement the user's journey and basic functionality of the site. We then decided the structure of the database and routes. Once our models were build for our database, we started working on setting up controllers for all routes. The api routes were then tested by making requests with Insomnia.  
+
+
+Making use of git we carried out individual work on branches for each feature. This was merged with the Development branch and any merge conflicts were fixed as a group. Prior to pushing the code to the Master branch, features were tested on the Development branch
+
+Tasks were managed and assigned through the task manager Trello. We performed daily stand-ups to keep track of progress.
+
+
+<img width="1275" alt="Screenshot 2019-03-26 at 23 31 05" src="https://user-images.githubusercontent.com/42609274/55040204-472f4800-501f-11e9-98d8-fbb69d36c562.png">
 
 ### Challenges
 
