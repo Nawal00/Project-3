@@ -73,7 +73,7 @@ The development process started with wireframes to guide the user's journey and 
 
 With backend functioning, we paced on frontend to set up the RESTful routes with React.js. We referred back to our wireframes to create the layout of the pages and distributed work to implement functionality feature for each page. Components were made where necessary for each pages to ensure effective state management and a route was set up in the app.js file. Once the core frontend functionality was working we shifted our focus on styling the site.
 
-Once we achieved our MVP, we ran tests on all CRUD routes including Login and Registration with Chai and Mocha by setting up mock data. Finally, we deployed our site on Heroku every other day to minimise any unforeseen deployment issues. 
+Once we achieved our MVP, we ran tests on all CRUD routes including Login and Registration with Chai and Mocha by setting up mock data. Finally, we deployed our site on Heroku every other day to minimise any unforeseen deployment issues.
 
 
 Making use of git we carried out individual work on branches for each feature. This was merged with the Development branch and any merge conflicts were fixed as a group. Prior to pushing the code to the Master branch, features were tested on the Development branch
@@ -84,9 +84,24 @@ Tasks were managed and assigned through the task manager Trello. We performed da
 
 ### Challenges
 
+This was my first group project at General Assembly and with React.js. It was a steep learning curve particularly managing state and props. We also used git on our project which introduce new challenges such as conflicts while merging code to development branch and unexpected bug fixing on deployed version of the site.
 
 ### Wins
+
+Most part of the project's basic structure was created as a group effort. My responsibility included frontend functionality, routes, error handling, form layout, testing and of the site's styling. I was the Trello board owner and implemented daily stand ups to go through our Trello board and keep track of each individuals progress. I was also the Git master which meant, I had to deploy our Master branch code on heroku and debug any issues.  
+
+I created the new gem functionality, including the use of the React Mapbox Autocomplete package that gives you search functionality for any address and converts an address input into geo-coordinates. To make the address of the Gems even more accurate, the users can drag and drop the marker on the map.
+
+The component below adds search functionality on the form.
+
+<img width="515" alt="Screenshot 2019-03-27 at 12 26 33" src="https://user-images.githubusercontent.com/42609274/55075761-afb40e80-508b-11e9-9767-ef321ef6540a.png">
+
+The function below converts address input into lat/lng and saves them as an object in the state.
+
+<img width="490" alt="Screenshot 2019-03-27 at 12 25 54" src="https://user-images.githubusercontent.com/42609274/55075769-b478c280-508b-11e9-81ba-5bc61be78008.png">
 
 
 
 ## Future features
+
+Features that we wanted to add if time allowed are rating system for the gems, messaging and display the routes for multiple gems on the map. This would enhance users experience significantly on our site.
