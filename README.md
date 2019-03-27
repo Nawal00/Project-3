@@ -34,15 +34,15 @@
 
 <img width="301" alt="Screenshot 2019-03-26 at 21 32 01" src="https://user-images.githubusercontent.com/42609274/55036245-f06f4180-5011-11e9-80d9-cca6b5aa7215.png">
 
-The Hidden Gem app allows users to look for landmarks or any other places of interest, also referred as 'Gems' on the website. The user can also add their own 'Gems' or create 'Trips' using a collection of 'Gems'. The concept of the app is to allow users to share unique places that they've been to and for others to find these places and experience it for themselves.
+The Hidden Gem app allows users to look for landmarks or any other places of interest, also referred as 'Gems' on the website. The user can add their own 'Gems' or create 'Trips' using a collection of 'Gems'. The concept of the app is to allow users to share unique places that they've been to and for others to find these places and experience it for themselves.
 
-Key features of the App are being able to follow other users. Navigation to a Gem from user's location to the gem via using google maps.
+Key features of the App are being able to follow other users. Navigation to a Gem from user's location to the gem using google maps via Mapbox.
 
 You can find a hosted version at https://wdi-hidden-gems-project-3.herokuapp.com
 
 
 ### Users and sessions
-The users can register on Hidden Gems through Register Page and Sign In through Login Page. The users must be logged in to add new gems, create new trip to the database and follow other users.
+The users can register on Hidden Gems through Register Page and Sign In through Login Page. The users must be logged in to add new gems, create new trips to the database and follow other users.
 
 Signed in users can access their Profile page. From here they can see the number of gems and trips they have uploaded and the users they follow. User profile images are uploaded using FileStack, but the FileStack API key last for 15 days therefore I've taken it off.
 
@@ -71,14 +71,14 @@ The Trips section encourages users to explore Gems and incorporate the Gems on t
 
 The development process started with wireframes to guide the user's journey and core functionality of the site. We then decided the structure of the database and RESTful routes. Once our models were established for our database, we started working on setting up controllers for all routes. The api routes were then tested by making requests with Insomnia.  
 
-With backend functioning, we paced on frontend to set up the RESTful routes with React.js. We referred back to our wireframes to create the layout of the pages and distributed work to implement functionality feature for each page. Components were made where necessary for each pages to ensure effective state management and a route was set up in the app.js file. Once the core frontend functionality was working we shifted our focus on styling the site.
+With backend functioning, we paced on frontend to set up the RESTful routes with React.js. We referred back to our wireframes to create the layout of the pages and distributed work to implement functionality feature for each page. Functional and stateful components were made where necessary for each pages to ensure effective state management and a route was set up in the app.js file. Once the core frontend functionality was working we shifted our focus on styling the site.
 
-Once we achieved our MVP, we ran tests on all CRUD routes including Login and Registration with Chai and Mocha by setting up mock data. Finally, we deployed our site on Heroku every other day to minimise any unforeseen deployment issues.
+Once we achieved our MVP, we ran tests on all CRUD routes including Login and Registration using Chai and Mocha with up mock data. Finally, we deployed our site on Heroku every other day to minimise any unforeseen deployment bugs.
 
 
-Making use of git we carried out individual work on branches for each feature. This was merged with the Development branch and any merge conflicts were fixed as a group. Prior to pushing the code to the Master branch, features were tested on the Development branch
+Making use of git, we carried out individual work on branches for each feature. This was merged with the development branch and any merge conflicts were fixed as a group. Prior to pushing the code to the Master branch, all features were tested on the development branch.
 
-Tasks were managed and assigned through the task manager Trello. We performed daily stand-ups to keep track of progress.
+Tasks were managed and assigned through the task manager Trello and we performed daily stand-ups to keep track of progress.
 
 <img width="1275" alt="Screenshot 2019-03-26 at 23 31 05" src="https://user-images.githubusercontent.com/42609274/55040204-472f4800-501f-11e9-98d8-fbb69d36c562.png">
 
@@ -88,9 +88,9 @@ This was my first group project at General Assembly and with React.js. It was a 
 
 ### Wins
 
-Most part of the project's basic structure was created as a group effort. My responsibility included frontend functionality, routes, error handling, form layout, testing and of the site's styling. I was the Trello board owner and implemented daily stand ups to go through our Trello board and keep track of each individuals progress. I was also the Git master which meant, I had to deploy our Master branch code on heroku and debug any issues.  
+Most part of the project's basic structure was created as a group effort. My responsibility included frontend functionality, routes, error handling, form layout, testing and the site's styling. I was the Trello board owner and implemented daily stand ups to go through our Trello board and keep track of each individuals progress. I was also the Git master which meant, I had to deploy our Master branch code on heroku and debug any issues.  
 
-I created the new gem functionality, including the use of the React Mapbox Autocomplete package that gives you search functionality for any address and converts an address input into geo-coordinates. To make the address of the Gems even more accurate, the users can drag and drop the marker on the map.
+I created the new gem functionality, including the use of the React Mapbox Autocomplete package that gives you search functionality for any address and converts an address input into geo-coordinates. To make the address of the Gems even more accurate, the users can drag and drop the marker on the map which is on the form.
 
 The component below adds search functionality on the form.
 
