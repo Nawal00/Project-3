@@ -44,7 +44,7 @@ You can find a hosted version at https://wdi-hidden-gems-project-3.herokuapp.com
 ### Users and sessions
 The users can register on Hidden Gems through Register Page and Sign In through Login Page. The users must be logged in to add new gems, create new trip to the database and follow other users.
 
-Signed in users can access their Profile page. From here they can see the number of gems and trips they have uploaded and the users they follow. User profile images are uploaded using FileStack, but the FileStack API key last for 15 days therefore, I've taken it off.
+Signed in users can access their Profile page. From here they can see the number of gems and trips they have uploaded and the users they follow. User profile images are uploaded using FileStack, but the FileStack API key last for 15 days therefore I've taken it off.
 
 <img width="1271" alt="Screenshot 2019-03-26 at 21 51 37" src="https://user-images.githubusercontent.com/42609274/55036049-62935680-5011-11e9-98ab-8eb6662d5ab6.png">
 <img width="1271" alt="Screenshot 2019-03-26 at 22 38 52" src="https://user-images.githubusercontent.com/42609274/55038198-fa943e80-5017-11e9-993e-e0fd38b191ce.png">
@@ -69,13 +69,16 @@ The Trips section encourages users to explore Gems and incorporate the Gems on t
 
 ## Process
 
-The development process started with wireframes to implement the user's journey and basic functionality of the site. We then decided the structure of the database and routes. Once our models were build for our database, we started working on setting up controllers for all routes. The api routes were then tested by making requests with Insomnia.  
+The development process started with wireframes to guide the user's journey and core functionality of the site. We then decided the structure of the database and RESTful routes. Once our models were established for our database, we started working on setting up controllers for all routes. The api routes were then tested by making requests with Insomnia.  
+
+With backend functioning, we paced on frontend to set up the RESTful routes with React.js. We referred back to our wireframes to create the layout of the pages and distributed work to implement functionality feature for each page. Components were made where necessary for each pages to ensure effective state management and a route was set up in the app.js file. Once the core frontend functionality was working we shifted our focus on styling the site.
+
+Once we achieved our MVP, we ran tests on all CRUD routes including Login and Registration with Chai and Mocha by setting up mock data. Finally, we deployed our site on Heroku every other day to minimise any unforeseen deployment issues. 
 
 
 Making use of git we carried out individual work on branches for each feature. This was merged with the Development branch and any merge conflicts were fixed as a group. Prior to pushing the code to the Master branch, features were tested on the Development branch
 
 Tasks were managed and assigned through the task manager Trello. We performed daily stand-ups to keep track of progress.
-
 
 <img width="1275" alt="Screenshot 2019-03-26 at 23 31 05" src="https://user-images.githubusercontent.com/42609274/55040204-472f4800-501f-11e9-98d8-fbb69d36c562.png">
 
